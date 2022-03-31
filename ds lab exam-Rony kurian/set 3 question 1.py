@@ -1,0 +1,13 @@
+import numpy as np
+a=np.array([[1,2],[3,4]])
+b=np.array([[5,6],[7,8]])
+print("first matrix")
+print(a)
+print("second matrix")
+print(b)
+print("matrix after subtract")
+c=np.subtract(a,b)
+print(c)
+print("sum of diagonal elements of matrix a")
+d=np.trace(a)
+print(d)
